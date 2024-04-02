@@ -60,3 +60,13 @@ gantt
     Conexion DB:CDB, after DB, 1d
     Desarrollo Front:DF, after F, 4d
 ```
+
+# Tiempo libre del procesador
+
+Para determinar el tiempo libre del procesador, necesitamos restar el tiempo total por iteración del período total del bucle loop(). 
+
+Tiempo libre del procesador = Período total del bucle - Tiempo total por iteración
+= 1000 ms - 1000 ms
+= 0 segundos
+
+Es decir, el tiempo libre del procesador es 0 segundos, lo que significa que el procesador está completamente ocupado ejecutando el código en el bucle loop() y no tiene tiempo adicional disponible.
